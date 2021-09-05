@@ -10,8 +10,8 @@ import java.net.URL;
 
 public class Main {
     public static void main(String[] args) {
-        downloadFileFromUrl("https://github.com/Palpunte-Union/KurarClient-Launcher-Java16/releases/download/1.0.0/KurarClient-Java16.jar", new File(getKurarDirectory(), "KurarClient.jar"));
-        downloadFileFromUrl("https://github.com/Palpunte-Union/KurarClient-Launcher-Java16/releases/download/1.0.0/KurarClient-Java16.json", new File(getKurarDirectory(), "KurarClient.json"));
+        downloadFileFromUrl("https://github.com/Palpunte-Union/KurarClient-Launcher-Java16/releases/download/1.0.0/KurarClient-Java16.jar", new File(getKurarDirectory(), "KurarClient-Java16.jar"));
+        downloadFileFromUrl("https://github.com/Palpunte-Union/KurarClient-Launcher-Java16/releases/download/1.0.0/KurarClient-Java16.json", new File(getKurarDirectory(), "KurarClient-Java16.json"));
         JOptionPane.showMessageDialog(null, "KurarClient was successfully installed.");
     }
 
